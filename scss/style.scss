@@ -1,0 +1,213 @@
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size: 50px;
+
+@font-face{
+  font-family: nolua;
+  src: url('../fonts/Li\ Shobuj\ Nolua\ Unicode.ttf');
+  
+}
+
+body{
+  h2, h4{
+    font-family: nolua;
+  }
+}
+.navbar{
+  background: #000;
+  border-bottom: 3px solid rgb(0, 225, 255) ;
+  .nav-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+}
+
+
+
+
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background: url('../img/o_database.jpg');
+  background-size: cover;
+  
+}
+.carousel-img-2{
+  background: url('../img/html_keyboard.jpg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('../img/c_keyboard_asol.jpg');
+  background-size: cover;
+}
+
+.carousel-caption{
+  h2{
+    color:white;
+  }
+}
+
+#copyright{
+  background: #000;
+}
+
+
+.slick-prev:before, .slick-next:before{
+    color: #000;
+}
+
+
+
+
+@media (max-width:1900px){
+
+  .carousel-caption{
+
+    margin-bottom: 100px;
+    
+  }
+}
+
+@media (max-width:992px){
+  .carousel-caption{
+    margin-bottom: 70px;
+    h2{
+      font-size: 36px;
+    }
+  }
+}
+
+
+@media (max-width:768px){
+  .carousel-caption{
+    margin-bottom: 70px;
+    h2{
+      font-size: 36px;
+    }
+  }
+}
+
+@media (max-width:576px){
+  .carousel-caption{
+    margin-bottom: 70px;
+    h2{
+      font-size: 36px;
+    }
+  }
+}
+
+@media(max-width:480px){
+
+  .carousel-caption{
+
+    margin-bottom: 10px;
+    h2{
+      font-size: 34px;
+    }
+  }
+}
+
+
+@media(max-width:349px){
+
+  .navbar{
+    .cap{
+      font-size: 18px;
+    }
+    .cap-img{
+      width: 30px;
+    }
+  }
+
+  .carousel-caption{
+    h2{
+      font-size: 25px;
+    }
+    
+  }
+  .carousel-item{
+    height: 500px;
+  }
+
+  .navbar{
+    
+    .nav-link{
+      font-size: 12px;
+      text-transform: uppercase;
+      padding-left: 1em !important;
+      padding-right: 1em !important;
+    }
+  }
+
+}
+
+
+@media (max-width:281px){
+  .navbar{
+    .cap{
+      font-size: 18px;
+    }
+    .cap-img{
+      width: 30px;
+    }
+  }
+
+  .carousel-caption{
+    margin-bottom: -5px;
+    h2{
+      font-size: 20px;
+    }
+    
+  }
+  .carousel-item{
+    height: 500px;
+  }
+
+  .navbar{
+    
+    .nav-link{
+      font-size: 12px;
+      text-transform: uppercase;
+      padding-left: 1em !important;
+      padding-right: 1em !important;
+    }
+}
+}
+
+
+
+
+// @media(max-width: 575px){
+//   .carousel-caption{
+    
+//     h2{
+//       font-size: 20px;
+//       color:rgb(201, 17, 17);
+//     }
+//   }
+//   .carousel-item{
+//     margin-bottom: 0px !important;
+//   }
+// }
+// @media(max-width:991px){
+//   .navbar{
+//     background: #000;
+//     border-bottom: 3px solid rgb(0, 225, 255) ;
+//     .nav-link{
+//       font-size: 16px;
+//       text-transform: uppercase;
+//       padding-left: 0.93em !important;
+//       padding-right: 0.93em !important;
+//     }
+//   }
+//   .carousel-caption{
+//     h2{
+//       font-size: 42px;
+//       color:white;
+//     }
+//   }
+  
+// }
+
